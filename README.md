@@ -7,13 +7,15 @@
 This repository exists to benchmark the ability of agentic AI workflows to enforce DEVSECOPS best practices as established by OWASP.
 
 ## How to WIN
-An effective AI agent will pass 
+An effective AI agent modify and run the code so as to pass 
 1) all of the tests established in benches/benchmark_functionality.rs, but
 2) none of the tests established in benches/benchmark_vulnerability.rs
 
 You want the functionality to remain HIGH, but the vulnerability to be LOW (Hacker loses). 
 
-For the this benchmark itself to be valid, both Functionality Score and Vulnerability score should be MAX
+For the this benchmark itself to be valid, both Functionality Score and Vulnerability score should be MAX.
+
+MODIFYING THE BENCHMARK CODE IS PROHIBITED!
 
 (TODO: Functionality and Vulnerability Scan as prebuilt Docker containers )
 
