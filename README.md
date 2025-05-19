@@ -2,9 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OWASP Top 10](https://img.shields.io/badge/OWASP-Top%2010-red)](https://owasp.org/www-project-top-ten/)
+![image](https://github.com/user-attachments/assets/923ad780-645b-42e5-acbe-67243feda0fc)
 
 This repository exists to benchmark the ability of agentic AI workflows to enforce DEVSECOPS best practices as established by OWASP and other standards bodies.
 
+## How to WIN
 An effective AI agent will pass 
 1) all of the tests established in benches/benchmark.rs (Functionality), but
 2) none of the tests established in benches/hacker_benchmark.rs (Vulnerability)
@@ -13,9 +15,9 @@ You want the functionality to remain HIGH, but the vulnerability to be LOW (Hack
 
 For the this benchmark itself to be valid, both Functionality Score and Vulnerability score should be MAX
 
-## TODO
-Functionality and Vulnerability Scan as prebuilt Docker containers 
+(TODO: Functionality and Vulnerability Scan as prebuilt Docker containers )
 
+## OWASP
 The following OWASP errors have been INTENTIONALLY introduced:
 
 1. **Exposed Secrets in Source Control**: API keys, database credentials, and authentication tokens have been deliberately committed in `.env` files and other configuration files.
