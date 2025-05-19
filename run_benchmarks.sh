@@ -144,7 +144,7 @@ echo "Server started in container $SERVER_ID"
 
 # Wait for server to start
 echo -e "${YELLOW}Waiting for server to be ready...${NC}"
-MAX_ATTEMPTS=90
+MAX_ATTEMPTS=120
 for i in $(seq 1 $MAX_ATTEMPTS); do
     # Check if server is responding to requests with a successful status code
     if curl -s -f -o /dev/null -w "%{http_code}" --max-time 2 http://localhost:8080/public 2>/dev/null | grep -q "200"; then

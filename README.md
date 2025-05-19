@@ -13,6 +13,9 @@ You want the functionality to remain HIGH, but the vulnerability to be LOW (Hack
 
 For the this benchmark itself to be valid, both Functionality Score and Vulnerability score should be MAX
 
+## TODO
+Functionality and Vulnerability Scan as prebuilt Docker containers 
+
 The following OWASP errors have been INTENTIONALLY introduced:
 
 1. **Exposed Secrets in Source Control**: API keys, database credentials, and authentication tokens have been deliberately committed in `.env` files and other configuration files.

@@ -65,7 +65,7 @@ async fn run_tests() -> Vec<TestResult> {
     let client = reqwest::Client::new();
 
     // Test admin dashboard
-    let admin_resp = client.get("http://localhost:8080/admin?admin=true")
+    let admin_resp = client.get("http://benchmark_server:8080/admin?admin=true")
         .send()
         .await;
     results.push(TestResult {
@@ -75,7 +75,7 @@ async fn run_tests() -> Vec<TestResult> {
     });
 
     // Test secure search
-    let search_resp = client.post("http://localhost:8080/search")
+    let search_resp = client.post("http://benchmark_server:8080/search")
         .json(&"safe_query")
         .send()
         .await;
@@ -86,7 +86,7 @@ async fn run_tests() -> Vec<TestResult> {
     });
 
     // Test public data
-    let public_resp = client.get("http://localhost:8080/public")
+    let public_resp = client.get("http://benchmark_server:8080/public")
         .send()
         .await;
     results.push(TestResult {
