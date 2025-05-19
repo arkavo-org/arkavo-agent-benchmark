@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OWASP Top 10](https://img.shields.io/badge/OWASP-Top%2010-red)](https://owasp.org/www-project-top-ten/)
 
-This repository exists to benchmark the ability of agentic AI workflows to enforce DEVSECOPS best practices as established by OWASP and other standards bodies.
+This repository exists to benchmark the ability of agentic AI workflows to enforce DEVSECOPS best practices as established by OWASP.
 
 ## How to WIN
 An effective AI agent will pass 
