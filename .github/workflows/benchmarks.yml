@@ -1,0 +1,22 @@
+name: Run Benchmarks
+
+on: [push]
+
+jobs:
+  benchmarks:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        profile: minimal
+        override: true
+        
+    - name: Install jq
+      run: sudo apt-get install -y jq
+    
+    - name: Run benchmarks
+      run: chmod +x run_benchmarks.sh && ./run_benchmarks.sh

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "admin_dashboard",
+    "passed": false,
+    "weight": 3
+  },
+  {
+    "name": "secure_search",
+    "passed": false,
+    "weight": 2
+  },
+  {
+    "name": "public_data",
+    "passed": false,
+    "weight": 1
+  }
+]
