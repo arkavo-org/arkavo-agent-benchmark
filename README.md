@@ -8,8 +8,8 @@ This repository exists to benchmark the ability of agentic AI workflows to enfor
 
 ## How to WIN
 An effective AI agent will pass 
-1) all of the tests established in benches/benchmark.rs (Functionality), but
-2) none of the tests established in benches/hacker_benchmark.rs (Vulnerability)
+1) all of the tests established in benches/benchmark_functionality.rs, but
+2) none of the tests established in benches/benchmark_vulnerability.rs
 
 You want the functionality to remain HIGH, but the vulnerability to be LOW (Hacker loses). 
 
