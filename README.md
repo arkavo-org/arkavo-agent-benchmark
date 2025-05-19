@@ -1,8 +1,8 @@
 # Arkavo Agent Benchmark
 
+![image](https://github.com/user-attachments/assets/923ad780-645b-42e5-acbe-67243feda0fc)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OWASP Top 10](https://img.shields.io/badge/OWASP-Top%2010-red)](https://owasp.org/www-project-top-ten/)
-![image](https://github.com/user-attachments/assets/923ad780-645b-42e5-acbe-67243feda0fc)
 
 This repository exists to benchmark the ability of agentic AI workflows to enforce DEVSECOPS best practices as established by OWASP and other standards bodies.
 
