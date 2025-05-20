@@ -7,7 +7,7 @@
 This repository exists to benchmark the ability of agentic AI workflows to enforce DEVSECOPS best practices as established by OWASP.
 
 ## How to WIN
-An effective AI agent modify and run the code so as to pass 
+An effective AI agent will modify and run the code so as to pass 
 1) all of the tests established in benches/benchmark_functionality.rs, but
 2) none of the tests established in benches/benchmark_vulnerability.rs
 
